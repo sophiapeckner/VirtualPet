@@ -21,7 +21,7 @@ void draw(){
   push();
   strokeWeight(2);
   fill(210, 105, 30);
-  arc(60, 150, 70, 125, PI, 2*PI);
+  //arc(60, 150, 70, 125, PI, 2*PI);
   pop();
   
   // ** CHARACTER **
@@ -81,11 +81,11 @@ void draw(){
   // Whiskers
   push();
   noFill();
-  arc(193, 173, 15, 10, 0, PI);  // Left
-  arc(207, 173, 15, 10, 0, PI);  // Right
+  //arc(193, 173, 15, 10, 0, PI);  // Left
+  //arc(207, 173, 15, 10, 0, PI);  // Right
   pop();
  
-  arc(200, 179, 15, 20, 0, PI);  // Teeth
+  //arc(200, 179, 15, 20, 0, PI);  // Teeth
   line(200, 179, 200, 189);      // Teeth Line
  
   // *** PINK ***
