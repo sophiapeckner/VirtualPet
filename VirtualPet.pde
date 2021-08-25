@@ -5,7 +5,7 @@ void setup(){
 // https://s17876.pcdn.co/wp-content/uploads/2016/11/5-6-how-to-draw-animals.jpg
 // https://www.khanacademy.org/computer-programming/draggable-bezier-curve/1034974270
 void draw(){
-  background(210, 105, 30);
+  //background(210, 105, 30);
   
   push();
   fill(65, 105, 225);
