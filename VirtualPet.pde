@@ -21,7 +21,7 @@ void draw(){
   push();
   strokeWeight(2);
   fill(210, 105, 30);
-  arc(60, 150, 70, 125, PI, TWO_PI);
+  arc(60, 150, 70, 125, PI, 2*PI);
   pop();
   
   // ** CHARACTER **
