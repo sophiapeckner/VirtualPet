@@ -5,6 +5,26 @@ void setup(){
 // https://s17876.pcdn.co/wp-content/uploads/2016/11/5-6-how-to-draw-animals.jpg
 // https://www.khanacademy.org/computer-programming/draggable-bezier-curve/1034974270
 void draw(){
+  background(210, 105, 30);
+  
+  push();
+  fill(65, 105, 225);
+  ellipse(200, 300, 300, 100);
+  pop();
+  
+  push();
+  fill(154,205,50);
+  noStroke();
+  rect(0, 0, 400, 150);
+  pop();
+  
+  push();
+  strokeWeight(2);
+  fill(210, 105, 30);
+  arc(60, 150, 70, 125, PI, TWO_PI);
+  pop();
+  
+  // ** CHARACTER **
   // *** GREY ***
   // Left Arm
   push();
