@@ -62,11 +62,11 @@ void draw(){
   ellipse(170, 150, 5, 15);     // Left
   ellipse(230, 150, 5, 15);     // Right
  
+  strokeWeight(1);
   // Whiskers
   pushMatrix();
   noFill();
   stroke(128, 128, 128);
-  strokeWeight(1);
   arc(193, 173, 15, 10, 0, PI);  // Left
   arc(207, 173, 15, 10, 0, PI);  // Right
   popMatrix();
