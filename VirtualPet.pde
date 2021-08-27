@@ -86,4 +86,15 @@ void draw(){
   stroke(169, 169, 169);
   strokeWeight(4);
   bezier(250, 250, 285, 305, 265, 225, 335, 255);
+  
+  strokeWeight(1);
+  stroke(0, 0, 0);
+  fill(255, 255, 153);
+  pushMatrix();
+  translate(-150, 60);
+  rotate(radians(330));
+  rect(50, 250, 80, 40);
+  popMatrix();
+  
+  triangle(18, 250, 87, 212, 60, 180);
 }
